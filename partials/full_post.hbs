@@ -12,10 +12,10 @@
       style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url({{img_url feature_image}}) center/cover no-repeat"
     >
     {{else}}
-    {{#if @blog.cover_image}}
+    {{#if @site.cover_image}}
     <div
       class="cover cover-image"
-      style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url({{@blog.cover_image}}) center/cover no-repeat"
+      style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url({{@site.cover_image}}) center/cover no-repeat"
     >
     {{else}}
     <div class="cover text-only">
